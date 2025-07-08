@@ -7,41 +7,72 @@ A React Native-based platform for scheduling and managing scrap pickups, consist
 - **Partner App**: Phone/OTP login, accept/process pickups, submit items for approval, and receive login notifications.
 - **Mock API**: `json-server` with `db.json` for users and pickups, served at `http://localhost(yourip address):3000/users`.
 
-## Project Structure
-scrap-pickup-platform/
-├── mock-api/           # json-server mock API
-│   ├── db.json         # Mock data for users and pickups
+## Project Structure scrap-pickup-platform/
+├── mock-api/
+│   ├── db.json
 │   ├── package.json
-├── customer-app/       # Customer-facing React Native app
+│   └── package-lock.json
+├── customer-app/
 │   ├── src/
-│   │   ├── screens/
-│   │   ├── components/
-│   │   ├── navigation/
-│   │   ├── context/
 │   │   ├── api/
+│   │   │   └── api.ts
+│   │   ├── components/
+│   │   │   ├── Button.tsx
+│   │   │   ├── InputField.tsx
+│   │   │   └── PickupCard.tsx
+│   │   ├── context/
+│   │   │   └── AppContext.tsx
+│   │   ├── navigation/
+│   │   │   └── AppNavigator.tsx
+│   │   ├── screens/
+│   │   │   ├── DashboardScreen.tsx
+│   │   │   ├── LoginScreen.tsx
+│   │   │   ├── OrderHistoryScreen.tsx
+│   │   │   └── SchedulePickupScreen.tsx
 │   │   ├── types/
+│   │   │   └── index.ts
 │   │   ├── utils/
+│   │   │   └── constants.ts
 │   │   └── assets/
 │   ├── App.tsx
 │   ├── package.json
 │   ├── tsconfig.json
-│   ├── README.md       # Customer App-specific setup
-├── partner-app/        # Partner-facing React Native app
+│   ├── android/
+│   ├── ios/
+│   └── README.md
+├── partner-app/
 │   ├── src/
-│   │   ├── screens/
-│   │   ├── components/
-│   │   ├── navigation/
-│   │   ├── context/
 │   │   ├── api/
+│   │   │   └── api.ts
+│   │   ├── components/
+│   │   │   ├── Button.tsx
+│   │   │   ├── InputField.tsx
+│   │   │   ├── PickupCard.tsx
+│   │   │   └── ItemInputForm.tsx
+│   │   ├── context/
+│   │   │   └── AppContext.tsx
+│   │   ├── navigation/
+│   │   │   └── AppNavigator.tsx
+│   │   ├── screens/
+│   │   │   ├── AvailablePickupsScreen.tsx
+│   │   │   ├── DashboardScreen.tsx
+│   │   │   ├── InProcessPickupsScreen.tsx
+│   │   │   └── LoginScreen.tsx
 │   │   ├── types/
+│   │   │   └── index.ts
 │   │   ├── utils/
+│   │   │   └── constants.ts
 │   │   └── assets/
 │   ├── App.tsx
 │   ├── package.json
 │   ├── tsconfig.json
-│   ├── README.md       # Partner App-specific setup
+│   ├── android/
+│   ├── ios/
+│   └── README.md
 ├── .gitignore
-├── README.md          # This file
+└── README.md
+
+
 
 ## Prerequisites
 - **Node.js**: v18 or higher
