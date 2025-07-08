@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "phone": "1234567890",
+      "type": "customer",
+      "name": "John Doe"
+    },
+    {
+      "id": "2",
+      "phone": "0987654321",
+      "type": "partner",
+      "name": "Jane Smith"
+    },
+    {
+      "id": "3",
+      "phone": "1112223334",
+      "type": "customer",
+      "name": "Alice Brown"
+    },
+    {
+      "id": "4",
+      "phone": "4445556667",
+      "type": "partner",
+      "name": "Bob Wilson"
+    },
+    {
+      "id": "5",
+      "phone": "7778889990",
+      "type": "customer",
+      "name": "Emma Davis"
+    },
+    {
+      "id": "6",
+      "phone": "2223334445",
+      "type": "partner",
+      "name": "Michael Lee"
+    },
+    {
+      "id": "7",
+      "phone": "5556667778",
+      "type": "customer",
+      "name": "Sophia Martinez"
+    },
+    {
+      "id": "8",
+      "phone": "8889990001",
+      "type": "partner",
+      "name": "David Clark"
+    },
+    {
+      "id": "9",
+      "phone": "3334445556",
+      "type": "customer",
+      "name": "Olivia Taylor"
+    },
+    {
+      "id": "10",
+      "phone": "6667778889",
+      "type": "partner",
+      "name": "James Anderson"
+    }
+  ],
+  "pickups": [
+    {
+      "id": "1",
+      "customerId": 1,
+      "partnerId": "2",
+      "date": "2025-07-10",
+      "timeSlot": "10-11 AM",
+      "address": "123 Green St",
+      "mapLink": "",
+      "status": "Completed",
+      "pickupCode": "EDO008",
+      "items": [
+        {
+          "name": "Sfhg",
+          "quantity": 5,
+          "price": 50
+        }
+      ],
+      "totalAmount": 250
+    },
+    {
+      "id": "fb90",
+      "customerId": "1",
+      "partnerId": "2",
+      "date": "2025-07-07",
+      "timeSlot": "10-11 AM",
+      "address": "Abcd",
+      "mapLink": "Abcd",
+      "status": "Completed",
+      "pickupCode": "MIQCX4",
+      "items": [
+        {
+          "name": "Abcd",
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "totalAmount": 50
+    },
+    {
+      "id": "d299",
+      "customerId": "1",
+      "partnerId": "2",
+      "date": "2025-07-08",
+      "timeSlot": "10-11 AM",
+      "address": "Abcd",
+      "mapLink": "Link",
+      "status": "In-Process",
+      "pickupCode": "ZG6173",
+      "items": [],
+      "totalAmount": 0
+    },
+    {
+      "id": "d2fc",
+      "customerId": "1",
+      "partnerId": "2",
+      "date": "2025-07-08",
+      "timeSlot": "12-1 PM",
+      "address": "Ahjdkv",
+      "mapLink": "Namakp",
+      "status": "Accepted",
+      "pickupCode": null,
+      "items": [],
+      "totalAmount": 0
+    },
+    {
+      "id": "1a03",
+      "customerId": "1",
+      "partnerId": "2",
+      "date": "2025-07-09",
+      "timeSlot": "4-5 PM",
+      "address": "Hyderabad, Telangana ",
+      "mapLink": "Mapslink",
+      "status": "Accepted",
+      "pickupCode": null,
+      "items": [],
+      "totalAmount": 0
+    },
+    {
+      "id": "0246",
+      "customerId": "1",
+      "partnerId": "2",
+      "date": "2025-07-08",
+      "timeSlot": "10-11 AM",
+      "address": "Abjdjd",
+      "mapLink": "https://forms.gle/Lc8DnnB8KX6XS4az5",
+      "status": "Pending for Approval",
+      "pickupCode": "JQ2LFN",
+      "items": [
+        {
+          "name": "Table ",
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "totalAmount": 50
+    }
+  ]
+}
